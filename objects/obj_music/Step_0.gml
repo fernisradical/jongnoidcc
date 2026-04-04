@@ -92,7 +92,7 @@ if isPanic
 	{
 		var prevpos = 0
 		
-		if panic_mu != noone
+		if panic_mu != noones
 		{
 			prevpos = audio_sound_get_track_position(panic_mu)
 			prevmu = scr_sound(audio_sound_get_asset(panic_mu), true)
