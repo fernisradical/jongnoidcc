@@ -52,8 +52,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Noise",
-    "path":"folders/Sprites/Player/Noise.yy",
+    "name":"Erection Cream",
+    "path":"folders/Sprites/Player/Erection Cream.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

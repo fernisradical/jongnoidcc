@@ -343,6 +343,7 @@ function reset_level()
 		visible = true
 		visual_size = 1
 		has_shotgun = false
+		is_slime = false
 		hasgerome = false
 		supertauntcount = 0
 		supertauntshow = false

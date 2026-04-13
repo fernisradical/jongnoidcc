@@ -35,8 +35,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Peppino",
-    "path":"folders/Sprites/Player/Peppino.yy",
+    "name":"Jong Noid",
+    "path":"folders/Sprites/Player/Jong Noid.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -20,6 +20,8 @@ switch (state)
 	case tv_states.normal:
 		if p.has_shotgun
 			sprite_index = spr_tv_shotgun
+		if p.is_slime
+			sprite_index = spr_tv_jelly
 		else if global.panic.active
 			sprite_index = spr_tv_panic
 		else if global.combo.count >= 50

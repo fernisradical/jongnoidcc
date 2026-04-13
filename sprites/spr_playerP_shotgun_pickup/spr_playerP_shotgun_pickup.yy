@@ -47,8 +47,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Shotgun",
-    "path":"folders/Sprites/Player/Peppino/Shotgun.yy",
+    "name":"Banana",
+    "path":"folders/Sprites/Player/Jong Noid/Banana.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

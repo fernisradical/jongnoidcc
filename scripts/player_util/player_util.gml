@@ -15,7 +15,7 @@ function do_groundpound()
 			reset_anim(spr_player_bodyslamstart)
 			vsp = -6
 		}
-		else
+		if has_shotgun
 		{
 			scr_sound_3d(sfx_killingblow, x, y)
 			scr_sound_3d(sfx_shotgunshot, x, y)
@@ -23,6 +23,11 @@ function do_groundpound()
 			vsp = -11
 			with instance_create(x, y, obj_shotgunblast)
         		sprite_index = spr_shotgunblast_down
+		}
+		if is_slime
+		{
+			reset_anim(spr_player_slimegpstart)
+			vsp = -6
 		}
 	}
 }
@@ -416,7 +421,6 @@ function scr_can_uncrouch()
 	return r;
 }
 
-//function for getting a sprite with the same name with a different character letter, make sure to name your sprites right!
 function asset_player_get(_action, _letter, _prefix = "spr_player")
 {
 	var _asset = asset_get_index(_prefix + _letter + "_" + _action)
@@ -424,8 +428,8 @@ function asset_player_get(_action, _letter, _prefix = "spr_player")
 		return _asset;
 	else
 	{
-		_asset = asset_get_index(_prefix + "P_" + _action) //peppino is the default
-		return _asset; //will be -1 if invalid
+		_asset = asset_get_index(_prefix + "P_" + _action)
+		return _asset;
 	}
 }
 
@@ -537,19 +541,6 @@ function asset_player_reset(_letter)
 	spr_player_scared = asset_player_get("scared", _letter)
 	spr_player_secondjump = asset_player_get("secondjump", _letter)
 	spr_player_secondjumploop = asset_player_get("secondjumploop", _letter)
-	spr_player_shotgun_crouch = asset_player_get("shotgun_crouch", _letter)
-	spr_player_shotgun_crouchfall = asset_player_get("shotgun_crouchfall", _letter)
-	spr_player_shotgun_crouchmove = asset_player_get("shotgun_crouchmove", _letter)
-	spr_player_shotgun_crouchstart = asset_player_get("shotgun_crouchstart", _letter)
-	spr_player_shotgun_fall = asset_player_get("shotgun_fall", _letter)
-	spr_player_shotgun_idle = asset_player_get("shotgun_idle", _letter)
-	spr_player_shotgun_jump = asset_player_get("shotgun_jump", _letter)
-	spr_player_shotgun_land = asset_player_get("shotgun_land", _letter)
-	spr_player_shotgun_move = asset_player_get("shotgun_move", _letter)
-	spr_player_shotgun_pickup = asset_player_get("shotgun_pickup", _letter)
-	spr_player_shotgun_shoot = asset_player_get("shotgun_shoot", _letter)
-	spr_player_shotgun_shootdown = asset_player_get("shotgun_shootdown", _letter)
-	spr_player_shotgun_shootdownland = asset_player_get("shotgun_shootdownland", _letter)
 	spr_player_Sjumpcancel = asset_player_get("Sjumpcancel", _letter)
 	spr_player_Sjumpcancelstart = asset_player_get("Sjumpcancelstart", _letter)
 	spr_player_slipbanana1 = asset_player_get("slipbanana1", _letter)
@@ -579,8 +570,35 @@ function asset_player_reset(_letter)
 	spr_player_walljumpstart = asset_player_get("walljumpstart", _letter)
 	spr_player_wallsplat = asset_player_get("wallsplat", _letter)
 	spr_player_winding = asset_player_get("winding", _letter)
+	
+	//jelly sprites slime sprites
+	spr_player_slimeidle = asset_player_get("slimeidle", _letter)
+	spr_player_slimewalk = asset_player_get("slimewalk", _letter)
+	spr_player_slimejump = asset_player_get("slimejump", _letter)
+	spr_player_slimeland = asset_player_get("slimeland", _letter)
+	spr_player_slimegpstart = asset_player_get("slimegpstart", _letter)
+	spr_player_slimegp = asset_player_get("slimegp", _letter)
+	spr_player_slimefall = asset_player_get("slimefall", _letter)
+	spr_player_slimestickside = asset_player_get("slimestickside", _letter)
+	spr_player_slimeslide = asset_player_get("slimeslide", _letter)
+	
+	//banana sprites shotgun sprites
+	spr_player_shotgun_crouch = asset_player_get("shotgun_crouch", _letter)
+	spr_player_shotgun_crouchfall = asset_player_get("shotgun_crouchfall", _letter)
+	spr_player_shotgun_crouchmove = asset_player_get("shotgun_crouchmove", _letter)
+	spr_player_shotgun_crouchstart = asset_player_get("shotgun_crouchstart", _letter)
+	spr_player_shotgun_fall = asset_player_get("shotgun_fall", _letter)
+	spr_player_shotgun_idle = asset_player_get("shotgun_idle", _letter)
+	spr_player_shotgun_jump = asset_player_get("shotgun_jump", _letter)
+	spr_player_shotgun_land = asset_player_get("shotgun_land", _letter)
+	spr_player_shotgun_move = asset_player_get("shotgun_move", _letter)
+	spr_player_shotgun_pickup = asset_player_get("shotgun_pickup", _letter)
+	spr_player_shotgun_shoot = asset_player_get("shotgun_shoot", _letter)
+	spr_player_shotgun_shootdown = asset_player_get("shotgun_shootdown", _letter)
+	spr_player_shotgun_shootdownland = asset_player_get("shotgun_shootdownland", _letter)
+	
 	pal_spr = asset_get_index("pal_player" + _letter)
-	pattern_colors = asset_get_index("pal_playerpattenrcolors" + _letter)
+	pattern_colors = asset_get_index("pal_playerpatterncolors" + _letter)
 	
 	sfx_superjumphold = asset_player_get("superjumphold", _letter, "sfx_")
 	sfx_machslideboost = asset_player_get("machslideboost", _letter, "sfx_")

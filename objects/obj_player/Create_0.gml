@@ -113,6 +113,7 @@ crouchslipbuffer = 0
 grabclimbbuffer = 0
 ladderbuffer = 0
 has_shotgun = false
+is_slime = false
 intransfo = false
 prev_transfo = false
 

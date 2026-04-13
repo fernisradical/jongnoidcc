@@ -36,7 +36,7 @@
   "origin":4,
   "parent":{
     "name":"Ranks",
-    "path":"folders/Sprites/Player/Noise/Ranks.yy",
+    "path":"folders/Sprites/Player/Erection Cream/Ranks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

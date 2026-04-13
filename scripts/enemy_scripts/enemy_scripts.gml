@@ -100,9 +100,9 @@ function do_scared()
 {
 	if scared_timer > 0
 		scared_timer--
-	else if (obj_player.state == states.mach3 || obj_player.sprite_index == obj_player.spr_player_swingding) && abs(x - obj_player.x) < 400 && abs(y - obj_player.y) < 110 && state != states.hit && collision_line(x, y, obj_player.x, obj_player.y, obj_solid, false, true) == noone && object_index != obj_pizzaboy
+	else if (obj_player.state == states.mach3 || obj_player.sprite_index == obj_player.spr_player_swingding || obj_player.is_slime) && abs(x - obj_player.x) < 400 && abs(y - obj_player.y) < 110 && state != states.hit && collision_line(x, y, obj_player.x, obj_player.y, obj_solid, false, true) == noone && object_index != obj_pizzaboy
 	{
-		state = states.scared
+	    state = states.scared
 		hsp = 0
 		if grounded
 			vsp = -3
@@ -156,7 +156,7 @@ function do_enemy_generics()
 	
 	if place_meeting(x, y, obj_player)
 	{
-		if obj_player.instakill && alarm[0] == -1 && !follow_player && obj_player.hitstun <= 0
+		if (obj_player.instakill || obj_player.is_slime) && alarm[0] == -1 && !follow_player && obj_player.hitstun <= 0
 		{
 			with obj_player
 			{

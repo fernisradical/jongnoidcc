@@ -12,6 +12,14 @@ function player_normal()
 		default_jump = spr_player_shotgun_jump
 		default_fall = spr_player_shotgun_fall
 	}
+	
+	if is_slime
+	{
+		default_idle = spr_player_slimeidle
+		default_move = spr_player_slimewalk
+		default_jump = spr_player_slimejump
+		default_fall = spr_player_slimefall
+	}
 	else if global.combo.count >= 50
 	{
 		default_idle = spr_player_rageidle

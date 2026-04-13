@@ -80,4 +80,5 @@ function asset_tv_reset(_letter)
 	spr_tv_ball = asset_player_get("ball", _letter, "spr_tv")
 	spr_tv_fireass = asset_player_get("fireass", _letter, "spr_tv")
 	spr_tv_shotgun = asset_player_get("shotgun", _letter, "spr_tv")
+	spr_tv_jelly = asset_player_get("jelly", _letter, "spr_tv")
 }

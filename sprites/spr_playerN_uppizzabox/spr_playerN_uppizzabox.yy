@@ -41,8 +41,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Peppino",
-    "path":"folders/Sprites/Player/Peppino.yy",
+    "name":"Erection Cream",
+    "path":"folders/Sprites/Player/Erection Cream.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

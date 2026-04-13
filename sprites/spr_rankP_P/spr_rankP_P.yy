@@ -86,7 +86,7 @@
   "origin":4,
   "parent":{
     "name":"Ranks",
-    "path":"folders/Sprites/Player/Peppino/Ranks.yy",
+    "path":"folders/Sprites/Player/Jong Noid/Ranks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
