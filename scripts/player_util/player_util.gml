@@ -27,7 +27,7 @@ function do_groundpound()
 		if is_slime
 		{
 			reset_anim(spr_player_slimegpstart)
-			vsp = -6
+			vsp = -8
 		}
 	}
 }
@@ -578,6 +578,7 @@ function asset_player_reset(_letter)
 	spr_player_slimeland = asset_player_get("slimeland", _letter)
 	spr_player_slimegpstart = asset_player_get("slimegpstart", _letter)
 	spr_player_slimegp = asset_player_get("slimegp", _letter)
+	spr_player_slimegpland = asset_player_get("slimegpland", _letter)
 	spr_player_slimefall = asset_player_get("slimefall", _letter)
 	spr_player_slimestickside = asset_player_get("slimestickside", _letter)
 	spr_player_slimeslide = asset_player_get("slimeslide", _letter)

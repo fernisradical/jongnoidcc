@@ -1097,6 +1097,7 @@
     {"id":{"name":"spr_playerP_Sjumpcancelstart","path":"sprites/spr_playerP_Sjumpcancelstart/spr_playerP_Sjumpcancelstart.yy",},},
     {"id":{"name":"spr_playerP_slimefall","path":"sprites/spr_playerP_slimefall/spr_playerP_slimefall.yy",},},
     {"id":{"name":"spr_playerP_slimegp","path":"sprites/spr_playerP_slimegp/spr_playerP_slimegp.yy",},},
+    {"id":{"name":"spr_playerP_slimegpland","path":"sprites/spr_playerP_slimegpland/spr_playerP_slimegpland.yy",},},
     {"id":{"name":"spr_playerP_slimegpstart","path":"sprites/spr_playerP_slimegpstart/spr_playerP_slimegpstart.yy",},},
     {"id":{"name":"spr_playerP_slimeidle","path":"sprites/spr_playerP_slimeidle/spr_playerP_slimeidle.yy",},},
     {"id":{"name":"spr_playerP_slimejump","path":"sprites/spr_playerP_slimejump/spr_playerP_slimejump.yy",},},

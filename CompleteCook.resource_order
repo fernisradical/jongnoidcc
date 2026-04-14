@@ -1002,6 +1002,7 @@
     {"name":"spr_playerP_Sjumpcancelstart","order":108,"path":"sprites/spr_playerP_Sjumpcancelstart/spr_playerP_Sjumpcancelstart.yy",},
     {"name":"spr_playerP_slimefall","order":2,"path":"sprites/spr_playerP_slimefall/spr_playerP_slimefall.yy",},
     {"name":"spr_playerP_slimegp","order":5,"path":"sprites/spr_playerP_slimegp/spr_playerP_slimegp.yy",},
+    {"name":"spr_playerP_slimegpland","order":9,"path":"sprites/spr_playerP_slimegpland/spr_playerP_slimegpland.yy",},
     {"name":"spr_playerP_slimegpstart","order":7,"path":"sprites/spr_playerP_slimegpstart/spr_playerP_slimegpstart.yy",},
     {"name":"spr_playerP_slimejump","order":8,"path":"sprites/spr_playerP_slimejump/spr_playerP_slimejump.yy",},
     {"name":"spr_playerP_slimeland","order":3,"path":"sprites/spr_playerP_slimeland/spr_playerP_slimeland.yy",},

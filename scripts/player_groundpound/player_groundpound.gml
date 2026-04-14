@@ -106,6 +106,8 @@ function player_groundpound()
 				landanim = spr_player_poundcancel2
 			else if has_shotgun
 				landanim = spr_player_shotgun_shootdownland
+			else if is_slime
+				landanim = spr_player_slimegpland
 			reset_anim(landanim)
 			image_index = 0
 			state = states.bump

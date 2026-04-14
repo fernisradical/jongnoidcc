@@ -7,6 +7,8 @@ with obj_player
 		kill = true
 	else if state == states.crusher && place_meeting(x, y + vsp + 1, other)
 		kill = true
+	else if (state == states.groundpound && is_slime == true & freefallsmash >= 1) && place_meeting(x, y + vsp + 1, other)
+		kill = true
 	
 	if kill
 		instance_destroy(other)
