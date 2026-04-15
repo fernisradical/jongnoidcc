@@ -62,6 +62,7 @@ player_states[states.slip] = player_slip;
 player_states[states.divebomb] = player_divebomb;
 player_states[states.wallbounce] = player_wallbounce;
 player_states[states.crusher] = player_crusher;
+player_states[states.still] = player_still;
 
 #endregion
 

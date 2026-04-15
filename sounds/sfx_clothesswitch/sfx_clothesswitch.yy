@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.43394557,
+  "duration":0.43395832,
   "exportDir":"",
   "name":"sfx_clothesswitch",
   "parent":{
