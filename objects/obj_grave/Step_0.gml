@@ -23,9 +23,13 @@ if (hp <= 0)
 		vsp -= 14
 		scr_sound_3d(sfx_breakblock2, x, y)
 		scr_sound_3d(v_pep_wahoo, x, y)
+		repeat(5)
+		{
 		create_debris(x + random_range(0, 32), y + random_range(0, 64), spr_destroyable_debris)
+		}
 	}
 	instance_destroy()
+	ds_list_add(global.ds_saveroom, id)
 }
 else
 with (obj_player)
