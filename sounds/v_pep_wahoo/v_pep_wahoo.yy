@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"v_pep_wahoo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.0439682,
+  "exportDir":"",
+  "name":"v_pep_wahoo",
+  "parent":{
+    "name":"Peppino",
+    "path":"folders/Sounds/Voice/Peppino.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"v_pep_wahoo.mp3",
+  "volume":0.87,
+}

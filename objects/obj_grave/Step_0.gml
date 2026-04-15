@@ -16,12 +16,14 @@ if (hp <= 0)
 	with (obj_player)
 	{
 		visible = true;
-		state = states.normal
-		vsp -= 100
-		hsp = 300
-		particle_create(x, y, particles.genericpoof, xscale, 1, spr_explosion)
+		grounded = false;
+		jumpstop = true
+		state = states.punch
+		sprite_index = spr_player_uppercut
+		vsp -= 14
 		scr_sound_3d(sfx_breakblock2, x, y)
-		scr_sound_3d(sfx_explosion, x, y)
+		scr_sound_3d(v_pep_wahoo, x, y)
+		create_debris(x + random_range(0, 32), y + random_range(0, 64), spr_destroyable_debris)
 	}
 	instance_destroy()
 }
