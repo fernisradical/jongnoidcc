@@ -21,11 +21,15 @@ if (hp <= 0)
 		state = states.punch
 		sprite_index = spr_player_uppercut
 		vsp -= 14
-		scr_sound_3d(sfx_breakblock2, x, y)
+		scr_sound_pitched(sfx_breakblock2, 0.9, 1.1)
 		scr_sound_3d(v_pep_wahoo, x, y)
+		repeat(5)
+		{
 		create_debris(x + random_range(0, 32), y + random_range(0, 64), spr_destroyable_debris)
+		}
 	}
 	instance_destroy()
+	ds_list_add(global.ds_saveroom, id)
 }
 else
 with (obj_player)

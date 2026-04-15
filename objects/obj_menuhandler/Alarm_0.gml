@@ -1,1 +1,1 @@
-do_fade(tower_1, "a", fade_types.generic)
+do_fade(outside, "a", fade_types.generic)
