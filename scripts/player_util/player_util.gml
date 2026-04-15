@@ -354,7 +354,7 @@ function do_hurt(obj = noone)
 				_name = "The Noise"
 			with obj_tv
 				tv_expression(asset_get_index($"spr_tv{other.charletter}_bighurt{irandom_range(1, 10)}"))
-			do_tip($"\{s}You've hurt "_name} {global.hurtcounter} Times...")
+			do_tip($"\{s}You've hurt {_name} {global.hurtcounter} Times...")
 		}
 		else
 		{
