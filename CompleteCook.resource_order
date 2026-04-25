@@ -6,6 +6,11 @@
     {"name":"mu_jelly_a","order":1,"path":"sounds/mu_jelly_a/mu_jelly_a.yy",},
     {"name":"mu_jelly_b","order":3,"path":"sounds/mu_jelly_b/mu_jelly_b.yy",},
     {"name":"mu_outside","order":2,"path":"sounds/mu_outside/mu_outside.yy",},
+    {"name":"bg_grassb","order":1,"path":"sprites/bg_grassb/bg_grassb.yy",},
+    {"name":"bg_grassf","order":3,"path":"sprites/bg_grassf/bg_grassf.yy",},
+    {"name":"bg_grasslowest","order":4,"path":"sprites/bg_grasslowest/bg_grasslowest.yy",},
+    {"name":"bg_grassm","order":2,"path":"sprites/bg_grassm/bg_grassm.yy",},
+    {"name":"spr_dirtdebris","order":1,"path":"sprites/spr_dirtdebris/spr_dirtdebris.yy",},
     {"name":"spr_gate_jelly","order":1,"path":"sprites/spr_gate_jelly/spr_gate_jelly.yy",},
   ],
 }
