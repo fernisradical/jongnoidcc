@@ -65,6 +65,7 @@
     {"name":"inst_13B0E0A","path":"rooms/jelly6/jelly6.yy",},
     {"name":"inst_25E2AD56","path":"rooms/jelly6/jelly6.yy",},
     {"name":"inst_9F7B69D4","path":"rooms/jelly6/jelly6.yy",},
+    {"name":"inst_EE2A69F","path":"rooms/jelly6/jelly6.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -135,6 +136,7 @@
         {"$GMRInstance":"v4","%Name":"inst_75A178F2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_75A178F2","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3424.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_13B0E0A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_13B0E0A","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3456.0,"y":352.0,},
         {"$GMRInstance":"v4","%Name":"inst_25E2AD56","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_25E2AD56","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3488.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_EE2A69F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_EE2A69F","objectId":{"name":"obj_slimegiver","path":"objects/obj_slimegiver/obj_slimegiver.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1536.0,"y":672.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
   ],
   "name":"jelly6",

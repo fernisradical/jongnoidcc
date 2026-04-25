@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":158.37698,
+  "duration":105.63918,
   "exportDir":"",
   "name":"mu_hub",
   "parent":{
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":48000,
-  "soundFile":"mu_hub.wav",
+  "sampleRate":44100,
+  "soundFile":"mu_hub.mp3",
   "volume":1.0,
 }

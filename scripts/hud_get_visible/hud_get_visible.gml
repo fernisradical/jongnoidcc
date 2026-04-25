@@ -6,5 +6,6 @@ function hud_get_visible(hideforboss = true)
 		   room != rm_timesup &&
 		   room != mainmenu &&
 		   room != outside &&
+		   room != outside2 &&
 		   global.option_showhud;
 }

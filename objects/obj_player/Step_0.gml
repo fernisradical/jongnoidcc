@@ -108,10 +108,10 @@ if (y > room_height + 300 || y < -800) && state != states.actor && state != stat
 	sprite_index = spr_player_idle
 }
 
-if intransfo || state == states.fireass
+if intransfo || state == states.fireass || is_slime == true
 	instance_destroy(instance_place(x + hsp, y + vsp, obj_ratblock))
 
-if state == states.ball
+if state == states.ball || is_slime == true
 	instance_destroy(instance_place(x + hsp, y + vsp, obj_rattumbleblock))
 
 if prev_transfo != intransfo //to cancel this sound, just make prev_transfo the transfo youre changed to.

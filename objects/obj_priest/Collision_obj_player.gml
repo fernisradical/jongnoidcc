@@ -1,10 +1,14 @@
-if other.intransfo
+if !other.is_slime
+	exit;
+
+if other.intransfo or other.is_slime == true
 {
 	alarm[0] = 120
 	
 	with other
 	{
 		intransfo = false
+		is_slime = false
 		prev_transfo = false
 		state = states.normal
 		movespeed = abs(hsp)

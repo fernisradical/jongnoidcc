@@ -1,4 +1,11 @@
 {
   "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"jelly10","order":1,"path":"rooms/jelly10/jelly10.yy",},
+    {"name":"outside2","order":1,"path":"rooms/outside2/outside2.yy",},
+    {"name":"mu_jelly_a","order":1,"path":"sounds/mu_jelly_a/mu_jelly_a.yy",},
+    {"name":"mu_jelly_b","order":3,"path":"sounds/mu_jelly_b/mu_jelly_b.yy",},
+    {"name":"mu_outside","order":2,"path":"sounds/mu_outside/mu_outside.yy",},
+    {"name":"spr_gate_jelly","order":1,"path":"sprites/spr_gate_jelly/spr_gate_jelly.yy",},
+  ],
 }
