@@ -23,7 +23,7 @@
   ],
   "name":"spr_ratblock_dead",
   "nineSlice":null,
-  "origin":9,
+  "origin":4,
   "parent":{
     "name":"Rats",
     "path":"folders/Sprites/Level Structure/Rats.yy",
@@ -70,13 +70,15 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"20f7749b-3880-46ac-aa44-0312bb58014a","path":"sprites/spr_ratblock_dead/spr_ratblock_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"47ad405f-60cf-4ea7-aca3-ccf3c91f0a66","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"20f7749b-3880-46ac-aa44-0312bb58014a","path":"sprites/spr_ratblock_dead/spr_ratblock_dead.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"47ad405f-60cf-4ea7-aca3-ccf3c91f0a66","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":32,
-    "yorigin":32,
+    "xorigin":64,
+    "yorigin":80,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

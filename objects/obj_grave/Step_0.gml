@@ -11,13 +11,13 @@ if (keyboard_check_pressed(ord("Z")) and dig == 0)
 	scr_sound_3d(sfx_breakblock1, x, y)
 	repeat(3)
 	{
-		with (create_debris(x + random_range(0, 20), y - 6, spr_dirtdebris))
+		with (create_debris(x + random_range(-49, 49), y - 20, spr_dirtdebris))
 		{
-			hsp = random_range(-3, 2)
-	        vsp = random_range(-3, -2)
+			hsp = random_range(-5, 5)
+	        vsp = random_range(-6, -4)
 	        image_speed = 0
-	        image_index = random_range(0, 4)
-			depth = -100
+	        image_index = random_range(0, (image_number - 1))
+			depth = -200
 		}
 	}
 }
@@ -35,17 +35,17 @@ if (hp <= 0)
 		scr_sound_pitched(sfx_breakblock2, 0.9, 1.1)
 		scr_sound_3d(v_pep_wahoo, x, y)
 	}
-	create_effect(x, y - 48, spr_superjumpexplosion)
+	create_effect(x, y - 60, spr_superjumpexplosion)
 	repeat(10)
 	{
-		with (create_debris(x + random_range(0, 39), y + 25, spr_destroyable_debris))
+		with (create_debris(x + random_range(-49, 49), y - 20, spr_gravedebris))
 		{
 			hsp = random_range(-5, 5)
 	        vsp = random_range(-20, -15)
 	        image_speed = 0
 	        image_index = random_range(0, (image_number - 1))
 		}
-		with (create_debris(x + random_range(0, 39), y + 25, spr_dirtdebris))
+		with (create_debris(x + random_range(-49, 49), y - 20, spr_dirtdebris))
 		{
 			hsp = random_range(-5, 5)
 	        vsp = random_range(-15, -10)

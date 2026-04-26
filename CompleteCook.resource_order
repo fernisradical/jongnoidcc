@@ -10,7 +10,12 @@
     {"name":"bg_grassf","order":3,"path":"sprites/bg_grassf/bg_grassf.yy",},
     {"name":"bg_grasslowest","order":4,"path":"sprites/bg_grasslowest/bg_grasslowest.yy",},
     {"name":"bg_grassm","order":2,"path":"sprites/bg_grassm/bg_grassm.yy",},
+    {"name":"grass1","order":5,"path":"sprites/grass1/grass1.yy",},
+    {"name":"grass2","order":6,"path":"sprites/grass2/grass2.yy",},
     {"name":"spr_dirtdebris","order":1,"path":"sprites/spr_dirtdebris/spr_dirtdebris.yy",},
     {"name":"spr_gate_jelly","order":1,"path":"sprites/spr_gate_jelly/spr_gate_jelly.yy",},
+    {"name":"spr_gravedebris","order":2,"path":"sprites/spr_gravedebris/spr_gravedebris.yy",},
+    {"name":"t_grass1","order":1,"path":"tilesets/t_grass1/t_grass1.yy",},
+    {"name":"t_grass2","order":2,"path":"tilesets/t_grass2/t_grass2.yy",},
   ],
 }

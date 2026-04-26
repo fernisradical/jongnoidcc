@@ -3,7 +3,7 @@ with obj_player
 	var can_bump = state == states.mach2 ||
 				   state == states.mach3 ||
 				   state == states.grab ||
-				   state == states.tumble
+				   (!is_slime && state == states.tumble)
 	if place_meeting(x + xscale, y, other) && can_bump
 	{
 		sprite_index = spr_player_bump
