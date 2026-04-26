@@ -1,0 +1,42 @@
+{
+  "$GMTileSet":"v1",
+  "%Name":"ts_jelly",
+  "autoTileSets":[],
+  "macroPageTiles":{
+    "SerialiseHeight":5,
+    "SerialiseWidth":9,
+    "TileCompressedData":[
+      -4,0,5,3,0,4,5,6,-4,0,5,24,0,25,26,27,-4,0,5,309,0,290,47,48,-4,0,5,108,0,109,110,111,-4,0,5,129,0,130,
+      131,132,
+    ],
+    "TileDataFormat":1,
+  },
+  "name":"ts_jelly",
+  "out_columns":18,
+  "out_tilehborder":2,
+  "out_tilevborder":2,
+  "parent":{
+    "name":"Jelly Level",
+    "path":"folders/Tile Sets/Jelly Level.yy",
+  },
+  "resourceType":"GMTileSet",
+  "resourceVersion":"2.0",
+  "spriteId":{
+    "name":"tilespr_jelly",
+    "path":"sprites/tilespr_jelly/tilespr_jelly.yy",
+  },
+  "spriteNoExport":false,
+  "textureGroupId":{
+    "name":"Default",
+    "path":"texturegroups/Default",
+  },
+  "tileAnimationFrames":[],
+  "tileAnimationSpeed":15.0,
+  "tileHeight":32,
+  "tilehsep":0,
+  "tilevsep":0,
+  "tileWidth":32,
+  "tilexoff":0,
+  "tileyoff":0,
+  "tile_count":315,
+}
