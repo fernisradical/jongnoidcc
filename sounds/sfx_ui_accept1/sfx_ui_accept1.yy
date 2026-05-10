@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.888,
+  "duration":0.334125,
   "exportDir":"",
   "name":"sfx_ui_accept1",
   "parent":{
