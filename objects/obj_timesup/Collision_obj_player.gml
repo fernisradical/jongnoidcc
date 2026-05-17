@@ -8,3 +8,5 @@ with other
 	vsp = -8
 	hsp = -4
 }
+scr_sound(sfx_backflip)
+scr_sound_3d(sfx_punch, x, y)

@@ -56,8 +56,8 @@ if (_move && place_meeting(x, y, playerid) && playerid.state != states.actor && 
 			audio_stop_sound(obj_music.secret_mu)
 		scr_sound(sfx_explosion)
 		scr_sound(sfx_groundpound)
-		scr_sound(sfx_timesup)
-		scr_sound(mu_timesup)
+		//scr_sound(sfx_timesup)
+		scr_sound(asset_player_get("timesup", obj_player.charletter, "mu_"))
 	}
 	room_goto(rm_timesup)
 	instance_destroy()

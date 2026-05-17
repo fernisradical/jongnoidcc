@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":6.4359865,
+  "duration":6.436,
   "exportDir":"",
   "name":"sfx_dashpad",
   "parent":{

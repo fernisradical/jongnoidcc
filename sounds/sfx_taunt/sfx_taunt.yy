@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.68931973,
+  "duration":0.6893333,
   "exportDir":"",
   "name":"sfx_taunt",
   "parent":{

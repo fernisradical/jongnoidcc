@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":48000,
-  "soundFile":"mu_timesup.ogg",
-  "volume":0.6,
+  "soundFile":"mu_timesup.mp3",
+  "volume":1.0,
 }

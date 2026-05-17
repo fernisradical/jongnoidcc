@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":14.652154,
+  "duration":0.0,
   "exportDir":"",
   "name":"mu_ranks",
   "parent":{
