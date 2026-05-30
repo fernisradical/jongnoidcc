@@ -313,6 +313,7 @@
     {"id":{"name":"jelly7","path":"rooms/jelly7/jelly7.yy",},},
     {"id":{"name":"jelly8","path":"rooms/jelly8/jelly8.yy",},},
     {"id":{"name":"jelly9","path":"rooms/jelly9/jelly9.yy",},},
+    {"id":{"name":"jellylap","path":"rooms/jellylap/jellylap.yy",},},
     {"id":{"name":"loadingroom","path":"rooms/loadingroom/loadingroom.yy",},},
     {"id":{"name":"mainmenu","path":"rooms/mainmenu/mainmenu.yy",},},
     {"id":{"name":"outside","path":"rooms/outside/outside.yy",},},
@@ -1482,6 +1483,7 @@
     {"roomId":{"name":"outside2","path":"rooms/outside2/outside2.yy",},},
     {"roomId":{"name":"jelly10","path":"rooms/jelly10/jelly10.yy",},},
     {"roomId":{"name":"tower_2","path":"rooms/tower_2/tower_2.yy",},},
+    {"roomId":{"name":"jellylap","path":"rooms/jellylap/jellylap.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

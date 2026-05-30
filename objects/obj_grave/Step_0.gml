@@ -35,7 +35,6 @@ if (hp <= 0)
 		scr_sound_pitched(sfx_breakblock2, 0.9, 1.1)
 		scr_sound_3d(v_pep_wahoo, x, y)
 	}
-	shake_camera(5, 15 / room_speed)
 	create_effect(x, y - 60, spr_superjumpexplosion)
 	repeat(10)
 	{

@@ -49,6 +49,11 @@
   ],
   "isDnd":false,
   "layers":[
+    {"$GMRTileLayer":"","%Name":"Tiles_2","depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":39,"SerialiseWidth":50,"TileCompressedData":[
+          -120,-2147483648,1,76,-14,-2147483648,1,55,-430,-2147483648,1,34,-44,-2147483648,1,34,-325,-2147483648,
+          2,536870988,0,-113,-2147483648,1,34,-18,-2147483648,1,34,-595,-2147483648,4,34,-2147483648,35,36,-48,
+          -2147483648,2,56,57,-27,-2147483648,1,34,-201,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_jelly","path":"tilesets/ts_jelly/ts_jelly.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":39,"SerialiseWidth":50,"TileCompressedData":[
           -150,66,-32,87,3,31,32,33,-15,66,35,108,109,107,108,109,107,108,109,107,108,109,107,108,109,107,108,
           109,107,108,109,107,108,109,107,108,109,107,108,109,107,108,109,52,53,54,-15,66,35,129,130,128,129,130,

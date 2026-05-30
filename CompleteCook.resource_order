@@ -19,6 +19,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"jelly10","order":1,"path":"rooms/jelly10/jelly10.yy",},
+    {"name":"jellylap","order":2,"path":"rooms/jellylap/jellylap.yy",},
     {"name":"outside2","order":1,"path":"rooms/outside2/outside2.yy",},
     {"name":"tower_2","order":2,"path":"rooms/tower_2/tower_2.yy",},
     {"name":"mu_jelly_a","order":1,"path":"sounds/mu_jelly_a/mu_jelly_a.yy",},

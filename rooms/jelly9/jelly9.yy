@@ -109,6 +109,20 @@
   ],
   "isDnd":false,
   "layers":[
+    {"$GMRTileLayer":"","%Name":"Tiles_2","depth":-200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":70,"SerialiseWidth":104,"TileCompressedData":[
+          -650,-2147483648,2,35,36,-102,-2147483648,2,56,57,-104,-2147483648,1,34,-115,-2147483648,1,268435532,
+          -193,-2147483648,3,97,98,99,-10,-2147483648,1,268435490,-90,-2147483648,3,118,119,120,-101,-2147483648,
+          3,139,140,141,-218,-2147483648,1,55,-415,-2147483648,2,35,36,-102,-2147483648,2,56,57,-88,-2147483648,
+          1,55,-121,-2147483648,1,34,-88,-2147483648,1,76,-26,-2147483648,1,76,-109,-2147483648,1,55,-68,-2147483648,
+          1,268435532,-247,-2147483648,1,34,-579,-2147483648,1,55,-48,-2147483648,2,35,36,-102,-2147483648,2,56,
+          57,-378,-2147483648,1,55,-38,-2147483648,1,55,-108,-2147483648,1,76,-28,-2147483648,2,268435492,268435491,
+          -33,-2147483648,3,79,80,81,-30,-2147483648,1,34,-35,-2147483648,2,268435513,268435512,-33,-2147483648,
+          3,100,101,102,-101,-2147483648,3,121,122,123,-47,-2147483648,1,268435532,-53,-2147483648,3,142,143,144,
+          -93,-2147483648,1,76,-89,-2147483648,1,34,-207,-2147483648,1,55,-219,-2147483648,1,55,-98,-2147483648,
+          1,76,-493,-2147483648,1,34,-375,-2147483648,1,55,-228,-2147483648,1,34,-24,-2147483648,3,37,38,39,-101,
+          -2147483648,3,58,59,60,-65,-2147483648,1,34,-173,-2147483648,1,76,-229,-2147483648,1,268435532,-355,
+          -2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_jelly","path":"tilesets/ts_jelly/ts_jelly.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":-100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":70,"SerialiseWidth":104,"TileCompressedData":[
           -29,66,3,28,29,30,-4,87,3,31,32,33,-94,66,10,49,50,51,107,107,108,109,52,53,54,-94,66,10,70,71,72,128,
           128,129,130,73,74,75,-94,66,3,67,47,48,-4,-2147483648,3,42,43,65,-94,66,3,67,68,69,-4,-2147483648,3,
@@ -288,6 +302,7 @@
         {"$GMRInstance":"v4","%Name":"inst_247CCCFA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_247CCCFA","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":1888.0,},
         {"$GMRInstance":"v4","%Name":"inst_6A591474","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A591474","objectId":{"name":"obj_collect","path":"objects/obj_collect/obj_collect.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":992.0,"y":1856.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":true,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"Tiles_3","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_3","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":70,"SerialiseWidth":104,"TileCompressedData":[-2967,-2147483648,2,157,158,-597,-2147483648,2,176,177,-102,-2147483648,2,197,198,-2144,-2147483648,2,155,156,-1462,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_jelly","path":"tilesets/ts_jelly/ts_jelly.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
   ],
   "name":"jelly9",
   "parent":{
