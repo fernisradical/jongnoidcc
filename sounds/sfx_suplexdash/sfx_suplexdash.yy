@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.0853515,
+  "duration":1.0853333,
   "exportDir":"",
   "name":"sfx_suplexdash",
   "parent":{

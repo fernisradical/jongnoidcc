@@ -22,5 +22,5 @@
   "resourceVersion":"2.0",
   "sampleRate":48000,
   "soundFile":"sfx_box.wav",
-  "volume":0.99,
+  "volume":1.0,
 }

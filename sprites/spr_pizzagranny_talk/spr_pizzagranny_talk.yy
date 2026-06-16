@@ -2,26 +2,38 @@
   "$GMSprite":"v2",
   "%Name":"spr_pizzagranny_talk",
   "bboxMode":0,
-  "bbox_bottom":106,
-  "bbox_left":27,
-  "bbox_right":106,
-  "bbox_top":25,
+  "bbox_bottom":113,
+  "bbox_left":5,
+  "bbox_right":116,
+  "bbox_top":4,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e81390cd-d128-4f03-9019-258e419458de","name":"e81390cd-d128-4f03-9019-258e419458de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"002bb92b-c38e-4d37-bb36-8babcb0f16cf","name":"002bb92b-c38e-4d37-bb36-8babcb0f16cf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f5b43f63-8990-4117-aed5-fbc73e1d0dc5","name":"f5b43f63-8990-4117-aed5-fbc73e1d0dc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"726b8344-6d1e-4d5c-9ba3-46e59cccd11a","name":"726b8344-6d1e-4d5c-9ba3-46e59cccd11a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ceee14fc-62df-4bca-8d0f-85c375d45cea","name":"ceee14fc-62df-4bca-8d0f-85c375d45cea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3837a8ea-ec84-4fa5-b078-fd311c616253","name":"3837a8ea-ec84-4fa5-b078-fd311c616253","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7e9d4ed3-6cff-49e2-b1df-d5adc4601084","name":"7e9d4ed3-6cff-49e2-b1df-d5adc4601084","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dfa4b841-5a33-4085-928f-e04a081aa312","name":"dfa4b841-5a33-4085-928f-e04a081aa312","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7607c91a-dd04-4dd1-a8b7-9405763da7d2","name":"7607c91a-dd04-4dd1-a8b7-9405763da7d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a33471ae-015f-4055-95c5-ee411f4db8f8","name":"a33471ae-015f-4055-95c5-ee411f4db8f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"58af7930-8870-4aee-822b-6687ec2b8ba6","name":"58af7930-8870-4aee-822b-6687ec2b8ba6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d750cc2d-e83d-4ee7-9109-d0b4e767dccf","name":"d750cc2d-e83d-4ee7-9109-d0b4e767dccf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5a8c5cb8-cca9-423a-9840-06f1bccda98f","name":"5a8c5cb8-cca9-423a-9840-06f1bccda98f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cc16b653-3183-4fb0-89f6-d61905d09171","name":"cc16b653-3183-4fb0-89f6-d61905d09171","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"048957f6-1603-4cc4-8eb0-65dbdc7eeff2","name":"048957f6-1603-4cc4-8eb0-65dbdc7eeff2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"be275a07-ab40-4632-87a8-a02bf6fa57f2","name":"be275a07-ab40-4632-87a8-a02bf6fa57f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"67dfbac5-986d-4cbb-807c-eddc42786b26","name":"67dfbac5-986d-4cbb-807c-eddc42786b26","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b786a953-7af8-4bf9-a649-aae73c6bde34","name":"b786a953-7af8-4bf9-a649-aae73c6bde34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":117,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"9dc4b6cf-6c69-40e5-9da2-829b8c667682","blendMode":0,"displayName":"default","isLocked":false,"name":"9dc4b6cf-6c69-40e5-9da2-829b8c667682","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"cfb8a8fe-6a8e-46c4-a43b-20a1968e9cb3","blendMode":0,"displayName":"default","isLocked":false,"name":"cfb8a8fe-6a8e-46c4-a43b-20a1968e9cb3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_pizzagranny_talk",
   "nineSlice":{
@@ -35,7 +47,13 @@
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
     "right":0,
-    "tileMode":[1,1,1,1,0,],
+    "tileMode":[
+      1,
+      1,
+      1,
+      1,
+      0,
+    ],
     "top":0,
   },
   "origin":4,
@@ -64,7 +82,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":15.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -85,14 +103,56 @@
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"e81390cd-d128-4f03-9019-258e419458de","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"06ac5b9a-53bb-49a9-a232-0d02476113ef","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"002bb92b-c38e-4d37-bb36-8babcb0f16cf","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"d56cbeff-a49f-4d8a-ac55-3edfe306e02a","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"f5b43f63-8990-4117-aed5-fbc73e1d0dc5","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"505c0fbb-471f-467a-b12b-7cb6a9352077","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"726b8344-6d1e-4d5c-9ba3-46e59cccd11a","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"0710d402-cc73-4151-af6c-20346b0566fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ceee14fc-62df-4bca-8d0f-85c375d45cea","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1fbb0b14-e339-4a2c-a23c-c402f2e62890","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3837a8ea-ec84-4fa5-b078-fd311c616253","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"def9c47a-2690-4f9b-b791-47363d2584c7","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7e9d4ed3-6cff-49e2-b1df-d5adc4601084","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"2bb2a5c3-6830-4513-bf3f-ae50609acebf","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"dfa4b841-5a33-4085-928f-e04a081aa312","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a1d73b06-f206-4f1c-9858-70b262e2b513","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7607c91a-dd04-4dd1-a8b7-9405763da7d2","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"69269e0b-0350-4a17-8aff-7cebaa682c65","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a33471ae-015f-4055-95c5-ee411f4db8f8","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"13913001-20b9-4b59-929f-c3bf3179ec68","IsCreationKey":false,"Key":6.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"58af7930-8870-4aee-822b-6687ec2b8ba6","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"48d8c6ff-ab6f-4879-aecb-3b1fb7162ec5","IsCreationKey":false,"Key":7.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d750cc2d-e83d-4ee7-9109-d0b4e767dccf","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dae2189c-9a96-4a49-b259-25134eb49dd1","IsCreationKey":false,"Key":8.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a8c5cb8-cca9-423a-9840-06f1bccda98f","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6bbdb6e6-c2bd-49e1-8727-2ef33c9f95ea","IsCreationKey":false,"Key":9.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"cc16b653-3183-4fb0-89f6-d61905d09171","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a59e62a8-53c7-49fc-ad53-e332fa48573a","IsCreationKey":false,"Key":10.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"048957f6-1603-4cc4-8eb0-65dbdc7eeff2","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1bf1b1a6-8f66-492c-ace1-fa08a8be9f3f","IsCreationKey":false,"Key":11.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"be275a07-ab40-4632-87a8-a02bf6fa57f2","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a197fcdd-3932-4d76-8c84-fd03bbc59a0b","IsCreationKey":false,"Key":12.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"67dfbac5-986d-4cbb-807c-eddc42786b26","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"114d4bc0-b9dc-4c16-aae9-dd5f2849e024","IsCreationKey":false,"Key":13.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b786a953-7af8-4bf9-a649-aae73c6bde34","path":"sprites/spr_pizzagranny_talk/spr_pizzagranny_talk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c81e287c-d939-4e67-8c00-bfceac5eb1c4","IsCreationKey":false,"Key":14.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":67,
+    "xorigin":71,
     "yorigin":58,
   },
   "swatchColours":null,
@@ -103,5 +163,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":134,
+  "width":142,
 }

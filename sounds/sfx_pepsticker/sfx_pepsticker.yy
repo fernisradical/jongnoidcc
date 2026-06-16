@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.4946712,
+  "duration":0.49466667,
   "exportDir":"",
   "name":"sfx_pepsticker",
   "parent":{

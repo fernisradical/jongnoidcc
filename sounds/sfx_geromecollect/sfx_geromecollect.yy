@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.5240135,
+  "duration":4.524,
   "exportDir":"",
   "name":"sfx_geromecollect",
   "parent":{

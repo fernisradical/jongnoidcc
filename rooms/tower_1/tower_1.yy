@@ -19,6 +19,7 @@
     {"name":"inst_562A42D9","path":"rooms/tower_1/tower_1.yy",},
     {"name":"inst_38738395","path":"rooms/tower_1/tower_1.yy",},
     {"name":"inst_17DD0B14","path":"rooms/tower_1/tower_1.yy",},
+    {"name":"inst_D063379","path":"rooms/tower_1/tower_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -51,7 +52,6 @@
           14,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_hotel","path":"tilesets/ts_hotel/ts_hotel.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_52205E1E","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_52205E1E","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.3199999,"scaleY":3.2399998,"spriteId":{"name":"spr_gerome_keyidle","path":"sprites/spr_gerome_keyidle/spr_gerome_keyidle.yy",},"x":1200.0,"y":512.0,},
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_2688CF8","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_2688CF8","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_towerdesk","path":"sprites/spr_towerdesk/spr_towerdesk.yy",},"x":1056.0,"y":608.0,},
       ],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
@@ -78,6 +78,9 @@
         {"$GMRInstance":"v4","%Name":"inst_17DD0B14","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17DD0B14","objectId":{"name":"obj_doorpoint","path":"objects/obj_doorpoint/obj_doorpoint.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_doorpoint","path":"objects/obj_doorpoint/obj_doorpoint.yy",},"propertyId":{"name":"spawn","path":"objects/obj_doorpoint/obj_doorpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"a\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1696.0,"y":640.0,},
+        {"$GMRInstance":"v4","%Name":"inst_D063379","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_D063379","objectId":{"name":"obj_pizzagranny","path":"objects/obj_pizzagranny/obj_pizzagranny.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_pizzagranny","path":"objects/obj_pizzagranny/obj_pizzagranny.yy",},"propertyId":{"name":"text","path":"objects/obj_pizzagranny/obj_pizzagranny.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Welcome to Roggeh's Hotel, How may I help you?\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1216.0,"y":576.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":25,"SerialiseWidth":61,"TileCompressedData":[
           -1108,53,1,44,-11,65,1,268435500,-47,53,2,55,56,-11,-2147483648,2,268435512,268435511,-34,53,-3,-2147483648,

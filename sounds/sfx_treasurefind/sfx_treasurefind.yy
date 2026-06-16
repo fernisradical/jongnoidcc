@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.4198186,
+  "duration":2.4198124,
   "exportDir":"",
   "name":"sfx_treasurefind",
   "parent":{

@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.121338,
+  "duration":2.1213334,
   "exportDir":"",
   "name":"sfx_shotgunshot",
   "parent":{

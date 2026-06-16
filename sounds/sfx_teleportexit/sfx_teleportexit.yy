@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":5.0893197,
+  "duration":5.0893335,
   "exportDir":"",
   "name":"sfx_teleportexit",
   "parent":{
